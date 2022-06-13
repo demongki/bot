@@ -213,20 +213,7 @@ kirbotz.sendMessage(from, { caption: teks, location: { jpegThumbnail: thumb }, t
 		}
 	    }
 	
-	const lep = {
-key: { 
-fromMe: false, 
-participant: `0@s.whatsapp.net`, 
-...({ remoteJid: "" }) 
-}, 
-message: { 
-"imageMessage": { 
-"mimetype": "image/jpeg", 
-"caption": `Kok Fc Bang`, 
-"jpegThumbnail": ppnyauser
-}
-}
-}
+	
 	    
 
 	
@@ -259,19 +246,7 @@ if (budy.startsWith("@6282288783972")){
 switch (command) {
 
 
-case 'sendbug':{
-if (!isCreator) return reply(api.owner)
-if (!q) return reply(`Contoh\n${prefix+command} 628×××××`)
-let nonye = [`${q}`]
-teks = `*Hai Anak Kontol*`
-teks1 = `\nLagi Apa Dek`
-for (let i of nonye) {
-kirbotz.sendMessage(i + "@s.whatsapp.net", {text: teks + teks1, mentions:[m.sender]}, {quoted:lep})
-}
-kirbotz.sendMessage(m.chat, {text: `Sukses`, mentions:[m.sender]}, {quoted:m})
-}
-addCmd(command.slice(0), 1, commund)
-break
+
 
 case 'p':
 if (args.length == 0) return  replyNya(`salam bang jangan p p p mulu`)
