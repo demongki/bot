@@ -21,13 +21,13 @@ global.sessionName = 'kirbotz'
 global.lolkey = 'RINTISAJA'
 global.wame = 'https://wa.me/62881036690566'
 global.ownerNumber = ["62881036690566@s.whatsapp.net"]
-global.email = 'jancok@gmail.com'
-global.yt = 'https://youtube.com/channel/kepokontol'
+global.email = 'mbahkonghariono@gmail.com'
+global.yt = 'https://youtube.com/channel/amjaykepo'
 global.region = 'Indonesia'
 global.prefa = ['','!','.','#','-','•']
 global.pengguna = 'ZakBotz - MD'
 global.footer = '© ZakBotz - MD'
-global.sp = 'https://xnxx.com'
+global.sp = 'https://amjaykepo.com'
 global.mess = {
     success: 'Success 💯',
     admin: 'Fitur Khusus Admin Group!!!',
